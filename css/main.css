@@ -17,6 +17,13 @@ ul li{
 	list-style-type: none;
 	overflow: hidden;
 }
+.icon-2{
+  float: right;
+  width: 76px;
+  height: 19px;
+  border-radius: 20px;
+  background-color: #00bcd4;
+}
 .main-menu{
 	font-size: 14px;
 }
@@ -49,7 +56,8 @@ ul li{
 
 .Rectangle img{
 	
-	float: left;
+	margin-top: -185px;
+    float: left;
     padding-left: 674px;
     width: 662px;
 }
@@ -65,15 +73,15 @@ width: 215px;
 	margin-left: 143px;
 }
 .page-text1 p{
-	width: 572px;
-  height: 288px;
-  font-family: VNFQuicksand;
-  font-size: 64px;
-  font-weight: bold;
-  line-height: 1.13;
-  text-align: left;
-  color: #00bcd4;
-  padding-left: 140px;
+	font-family: cursive;
+    width: 553px;
+    height: 288px;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.13;
+    text-align: left;
+    color: #00bcd4;
+    padding-left: 140px;
 }
 .page-text2{
 	 width: 487px;
@@ -120,6 +128,7 @@ width: 215px;
 }
 .page-text3 p a{
 color: #673ab7;
+margin-right: 18px;
 } 
 .page-text4 {
 	width: 193px;
@@ -146,6 +155,10 @@ color: #673ab7;
     padding-left: 9px;
 
 }
+.page-text4 p a{
+  margin-right: 10px;
+  color: #fff;
+}
 .span ul li{
 	float: left;
 	padding-top: 100px;
@@ -165,15 +178,19 @@ color: #673ab7;
 }
 
 .btn1{
-	margin-top: 86px;
-    width: 156px;
-    height: 30px;
-    border-radius: 15px;
+	padding-left: 20px;
+    /* width: 193px; */
+    /* height: 50px; */
+    margin-top: 120px;
+    /* margin-right: 35px; */
+    width: 175px;
+    height: 40px;
+    border-radius: 20px;
     background-color: #00bcd4;
 
 }
 .btn1 p a{
-	padding-top: 10px;
+	
     padding-left: 10px;
     float: left;
     width: 104px;
@@ -223,11 +240,10 @@ color: #673ab7;
 }
 .home-page3{
 	margin-top: 1550px;
-	
-    margin-left: 100px;
+  margin-left: 100px;
 }
 .itme {
-    padding-top: 134px;
+   padding-top: 350px;
     padding-left: 72px;
     width: 408px;
     /* height: 369px; */
@@ -248,8 +264,9 @@ color: #673ab7;
     box-shadow: 30px 30px 40px 0 rgba(0, 0, 0, 0.1);
 }*/
 .itme p a{
-	font-family: VNFQuicksand;
+	font-family: Quicksand;
 	text-align: justify;
+  margin-left: 20px;
 }
 .icon-1{
 	width: 31px;
@@ -293,9 +310,252 @@ float: right;
     margin-right: 73px;
 }
 .Oval-5{
-	width: 200px;
-  height: 200px;
-  background-color: #d8d8d8;
+	width: 50px;
+    height: 50px;
+    background: red;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+}
+.page-icon-1{
+  width: 76px;
+    margin-left: 68px;
+    height: 14px;
+    border-radius: 20px;
+    background-color: #00bcd4;
+}
+.page-icon-2{
+  width: 25.2px;
+  height: 18.9px;
+  background-color: #f44336;
+  background-color: var(--tomato);
 }
 
+#icon-dk{
+  margin-right: -9px;
+  color: #fff;
+}
+#icon-dk1{
+  color: #fff;
+}
+.inner-1{
+  padding-top: 10px;
+}
+.now{
+      width: -27px;
+    /* height: 30px; */
+    font-family: simple-line-icons;
+    font-size: 20px;
+    /* letter-spacing: 0.5px; */
+    text-align: left;
+    color: #ffc107;
+    margin-left: -43px;
+    /* color: var(--marigold); */
+}
+.now a{
+  margin-left: 22px;
+      font-family: cursive;
+}
+.icon-play{
+  width: 175px;
+  height: 105px;
+  border-radius: 100px;
+  background-color: #673ab7;
+  box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.3);
+}
+.home-page4{
+    padding-top: 371px;
+}
+.home-page4 ul img{
+     width: 158px;
+    margin-right: 78px;
 
+}
+.home-page4 ul li{
+  float: right;
+  margin-left: 20px;
+}
+.home-page4 ul li p{
+       margin-left: 45px;
+    width: 102px;
+    height: 20px;
+    font-family: VNFQuicksand;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: justify;
+    color: #000000;
+    color: var(--black);
+}
+.home-page5{
+  padding-top: 300px;
+}
+
+.teacher{
+  padding-top: 120px;
+}
+.teacher-img{
+  float: left;
+  margin-right: 100px;
+}
+.teacher-col{
+  
+  
+  height: 65px;
+  font-family: VNFQuicksand;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  color: #00bcd4;
+}
+.name{
+  color: #673ab7;
+}
+.teacher p{
+      font-size: 16px;
+    padding-right: 60px;
+}
+.commnet{
+  padding-top: 300px;
+  
+}
+.list-commnet{
+  width: 100%;
+    height: 500px;
+    background-color: #f9f9f9;
+    padding-top: 100px;
+}
+.comment-1{
+    margin-left: 120px;
+    float: left;
+    width: 40%;
+    height: 45%;
+    border-radius: 29px;
+    background-color: #ffffff;
+    box-shadow: 30px 30px 50px 0 rgba(0, 0, 0, 0.2);
+
+}
+.comment-2{
+  float: right;
+    width: 33%;
+    margin-top: 29px;
+    height: 32%;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-right: 91px;
+}
+.comment-3{
+    margin-left: 130px;
+    width: 40%;
+    height: 31%;
+    border-radius: 29px;
+    background-color: #ffffff;
+}
+.comment-4{
+  margin-top: -136px;
+    float: right;
+    width: 34%;
+    height: 25%;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-right: 91px;
+}
+.comment-1 p{
+margin-left: 30px;
+    margin-right: 18px;
+    margin-top: 29px;
+}
+.comment-3 p{
+    padding-left: 32px;
+    /* margin-right: -37px; */
+    margin-top: 264px;
+    padding-top: 29px;
+}
+.comment-2 p{
+  margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.comment-4 p{
+   margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.name-comnet-1{
+  color: blue;
+    float: right;
+}
+ .img-comment{
+  width: 203px;
+    height: 99px;
+    float: right;
+    /* margin-top: -8px; */
+    margin-right: 220px;
+}
+.maps{
+  float: right;
+}
+.form-contact{
+   width: 388px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px 0 #03A9F4;
+    border: solid 1px #03A9F4;
+    margin-bottom: 18px;
+    padding-left: 24px;
+}
+.form-textarea{
+   width: 386px;
+    height: 128px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: solid 1px #00bcd4;
+
+}
+.contact-title{
+  
+  font-family: VNFQuicksand;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #00bcd4;
+
+}
+.contact-btn{
+ width: 160px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #00bcd4;
+}
+.contact-form{
+  width: 50%;
+    float: left;
+}
+.contact-fr{
+  padding-left: 177px;
+}
+.footer{
+  margin-top: 531px;
+    background-color: #00bcd4;
+    height: 555px;
+}
+.row{
+  padding-top: 130px;
+}
+.span{
+  float: right;
+}
+.footer-tel{
+  float: left;
+}
+.footer-tel h4{
+  color: #ffffff;
+  margin-left: 71px;
+}
+.nav li a{
+  color: #ffffff;
+  margin-left: 32px;
+}
