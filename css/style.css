@@ -331,15 +331,6 @@ ul li{
   background-color: #00bcd4;
 
 }
-.button-b{
-  margin-top: 90px;
-  margin-left: 77px;
-  width: 175px;
-  height: 40px;
-  border-radius: 20px;
- background-color: #ffc107;
-
-}
 .button-left{
   width: 40px;
   height: 40px;
@@ -577,11 +568,14 @@ ul li{
 }
 .now{
 
+  /* height: 30px; */
+  font-family: simple-line-icons;
   font-size: 20px;
+  /* letter-spacing: 0.5px; */
   text-align: left;
   color: #ffc107;
   margin-left: -43px;
-
+  /* color: var(--marigold); */
 }
 .now a{
   margin-left: 22px;
