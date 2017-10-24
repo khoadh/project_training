@@ -133,7 +133,24 @@ ul li {
     margin-right: 37px;
     margin-left: 9px;
 }
-
+.nal li a{
+    padding-left: 29px;
+    width: 67px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: left;
+    color: #ffffff;
+}
+.haposoft{
+    margin-top: 77px;
+    width: 309px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: left;
+    color: #ffffff;
+}
 .title-page {
     position: fixed;
 }
@@ -1247,7 +1264,10 @@ ul li {
     color: #00bcd4;
 
 }
-
+.select-form{
+      padding-left: 33px;
+    font-family: Lato;
+}
 .contact-btn {
     margin-left: 219px;
     margin-top: 55px;
@@ -1261,6 +1281,7 @@ ul li {
 .contact-form {
     margin-left: 256px;
     float: left;
+    margin-top: 137px;
 }
 
 .contact-fr {
@@ -1338,24 +1359,80 @@ ul li {
 .row {
     /* padding-top: 130px;*/
 }
-
+.footer-pi{
+       margin-top: 388px;
+}
 .span {
     float: right;
     padding-bottom: 163px;
+}
+.footer-ti{
+      padding-left: 233px;
+    padding-top: 133px;
+
+  height: 25px;
+  font-family: simple-line-icons;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #ffffff;
+}
+.footer-twitter{
+      float: left;
+    padding-right: 46px;
+}
+.footer-facebook{
+      float: left;
+    padding-right: 46px;
+}
+.footer-linkedin{
+    float: left;
+    padding-right: 46px;
+}
+.footer-youtube{
+float: left;
 }
 
 .footer-tel {
     float: left;
 }
-
-.footer-tel h4 {
-    color: #ffffff;
-    margin-left: 71px;
+.privacy{
+    float: left;
+    padding-left: 206px;
+    margin-right: 38px;
+    color: #fff;
 }
-
-.nav li a {
+.terms{
+      float: left;
+    margin-right: 38px;
+    color: #fff;
+}
+.settings{
+    color: #fff;
+}
+.footer-tel h4 {
+     margin-left: 71px;
+    width: 97px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    text-align: left;
     color: #ffffff;
+}
+.footer-ti ul li{
+
+}
+}
+.nal li a {
     margin-left: 32px;
+    width: 90px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: left;
+    color: #ffffff;
 }
 
 .img-comment-ft {
@@ -1378,7 +1455,7 @@ ul li {
     margin-bottom: 137px;
 }
 
-.nav li {
+.nal li {
     margin-bottom: 23px;
 }
 
@@ -1419,12 +1496,16 @@ ul li {
 .teacher-img img {
 
 }
+.form-input{
+    padding-bottom: 84px;
+    padding-left: 38px;
+}
 
 .icon-form {
     position: absolute;
     /* left: 199px; */
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 13px;
     width: 15px;
     height: 16px;
     /* font-family: simple-line-icons; */
