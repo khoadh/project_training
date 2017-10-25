@@ -1,9 +1,4 @@
-/*
 
-/* common
-
--
----------------------------------------------------------------------------- */
 
 @font-face {
     font-family: VNFQuicksand-Bold;
@@ -32,6 +27,31 @@ a {
 ul li {
     list-style-type: none;
     overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.comment-B:hover {
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.25);
+    cursor: pointer;
+}
+.comment-A:hover {
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.25);
+    cursor: pointer;
+}
+.comment-C:hover {
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.25);
+    cursor: pointer;
+}
+.comment-D:hover {
+    box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.25);
+    cursor: pointer;
+}
+.form-contact:hover{
+    border: solid 2px #673ab7;
 }
 
 #page {
@@ -42,8 +62,9 @@ ul li {
 }
 
 .icon-a {
-    margin-top: 53px;
-    margin-left: 176px;
+    /* margin-top: 53px;*/
+    margin: 53px 0px 0px 176px;
+    /* margin-left: 176px;*/
     float: left;
     width: 76px;
     height: 19px;
@@ -52,8 +73,9 @@ ul li {
 }
 
 .icon-list-1 {
-    margin-top: 54px;
-    margin-left: -116px;
+    margin: 54px 0px 0px -116px;
+    /*margin-top: 54px;*/
+    /*margin-left: -116px;*/
     float: left;
     width: 76px;
     height: 19px;
@@ -62,17 +84,29 @@ ul li {
 }
 
 .icon-b {
-    margin-top: 81px;
-    margin-left: 227px;
+    /*margin-top: 81px;*/
+    /*margin-left: 227px;*/
+    margin: 81px 0px 0px 227px;
     width: 25.2px;
     border-radius: 20px;
     height: 18.9px;
     background-color: #f44336;
 }
 
+.icon-c1 {
+    margin: -48px 0px 0px 527px;
+    padding-top: -79px;
+
+    background-color: #00bcd4;
+    width: 75.6px;
+    height: 18.9px;
+    border-radius: 20px;
+}
+
 .icon-list-b {
-    margin-top: 21px;
-    margin-left: -88px;
+    /*margin-top: 21px;*/
+    /*margin-left: -88px;*/
+    margin:21px 0px 0px -88px ;
     width: 43px;
     border-radius: 20px;
     height: 18px;
@@ -81,8 +115,7 @@ ul li {
 }
 
 .icon-list-2 {
-    margin-top: 633px;
-
+    margin-top: 522px;
     width: 76px;
     height: 19px;
     border-radius: 20px;
@@ -103,8 +136,8 @@ ul li {
 }
 
 .icon-round {
-    margin-top: -19px;
-    margin-right: 15px;
+
+    margin: -19px 15px 0px 0px ;
     float: left;
     width: 14px;
     height: 14px;
@@ -133,7 +166,8 @@ ul li {
     margin-right: 37px;
     margin-left: 9px;
 }
-.nal li a{
+
+.nal li a {
     padding-left: 29px;
     width: 67px;
     height: 19px;
@@ -142,7 +176,8 @@ ul li {
     text-align: left;
     color: #ffffff;
 }
-.haposoft{
+
+.haposoft {
     margin-top: 77px;
     width: 309px;
     height: 19px;
@@ -151,6 +186,7 @@ ul li {
     text-align: left;
     color: #ffffff;
 }
+
 .title-page {
     position: fixed;
 }
@@ -301,24 +337,26 @@ ul li {
 }
 
 .page-text-c {
-    margin-top: 53px;
-    margin-left: 268px;
-    width: 136px;
-    height: 50px;
-    border-radius: 100px;
-    background-color: #ffffff;
-
-}
-
-.page-text-c p {
-    width: 136px;
-    height: 50px;
+    margin-top: 67px;
+    margin-left: 275px;
+    padding: 16px 0px 0px 13px;
+    display: inline-block;
+    width: 117px;
+    height: 34px;
     border-radius: 100px;
     background-color: #ffffff;
     border: solid 2px #673ab7;
 }
 
-.page-text-c p a {
+/*.page-text-c {*/
+    /*width: 136px;*/
+    /*height: 50px;*/
+    /*border-radius: 100px;*/
+    /*background-color: #ffffff;*/
+    /*border: solid 2px #673ab7;*/
+/*}*/
+
+.page-text-c a{
     margin-left: 22px;
     width: 56px;
     height: 16px;
@@ -335,30 +373,73 @@ ul li {
 }
 
 .page-text-d {
-    margin-top: 10px;
-    width: 193px;
-    height: 50px;
-    border-radius: 100px;
-
-    margin-left: 448px;
-    margin-top: -63px;
-
-}
-
-.page-text-d p {
+    display: inline-block;
+    width: 182px;
+    margin-left: 443px;
+    margin-top: -54px;
     border-radius: 40px;
-    height: 45px;
-    padding-top: 7px;
+    height: 38px;
+    padding: 16px 0px 0px 16px;
     background-color: #e91e63;
-    padding-left: 15px;
-}
-
-.page-text-d p a {
-    position: absolute;
-    padding-left: 11px;
+    /* padding-left: 15px; */
     color: #fff;
-    margin-top: 10px;
 }
+.icon-list-btn-1{
+    position: absolute;
+    color: #fff;
+    margin-left: -54px;
+    margin-top: 115px;
+}
+.icon-list-btn-2{
+    position: absolute;
+    color: #fff;
+    margin-top: 115px;
+    margin-left: -45px;
+}
+.page-text-list{
+    display: inline-block;
+    width: 184px;
+    margin-left: 35px;
+    margin-top: 97px;
+    border-radius: 40px;
+    height: 32px;
+    padding: 17px 0px 0px 29px;
+    background-color: #e91e63;
+    color: #fff;
+}
+#login-list{
+    margin-left: -40px;
+    /* background-color: black; */
+    background-color: #00bcd4;
+    margin-top: 49px;
+}
+#login-list-1{
+    margin-top: 67px;
+}
+#login-list-2{
+    margin-top: 67px;
+}
+#color-1{
+    background-color: #00bcd4;
+}
+#color-2{
+    background-color: #673ab7;
+}
+#color-3{}
+/*.page-text-d {*/
+    /*border-radius: 40px;*/
+    /*height: 45px;*/
+    /*padding-top: 7px;*/
+    /*background-color: #e91e63;*/
+    /*padding-left: 15px;*/
+/*}*/
+
+/*.page-text-d  {*/
+    /*position: absolute;*/
+    /*padding-left: 11px;*/
+    /*color: #fff;*/
+    /*margin-top: 10px;*/
+/*}*/
 
 .span ul li {
     float: left;
@@ -376,15 +457,15 @@ ul li {
     height: 74px;
     font-family: Lato;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5;.icon-list-2
     text-align: justify;
     color: #000000;
 }
 
 #icon-li {
     color: #fff;
-    margin-left: 10px;
-    padding-top: 10px;
+    margin-left: 11px;
+    padding-top: 12px;
     position: absolute;
 }
 
@@ -397,8 +478,8 @@ ul li {
     letter-spacing: 0.2px;
     text-align: left;
     color: #673ab7;
-    margin-top: 17px;
-    margin-left: 96px;
+    margin-top: -34px;
+    margin-left: 369px;
 }
 
 .button-a {
@@ -416,7 +497,8 @@ ul li {
 }
 
 #icon-btn-1 {
-    margin-left: -12px;
+    margin-left: -35px;
+    margin-top: 74px;
 }
 
 #icon-left {
@@ -426,7 +508,7 @@ ul li {
 .button-left {
     width: 40px;
     height: 40px;
-    margin-top: 134px;
+    margin-top: 250px;
     margin-left: -262px;
     /* width: 175px; */
     /* height: 40px; */
@@ -458,7 +540,7 @@ ul li {
 }
 
 .next {
-    margin-top: 331px;
+    margin-top: 260px;
     margin-left: 1780px;
     width: 83px;
     height: 30px;
@@ -496,13 +578,15 @@ ul li {
 }
 
 .back-icon {
+
     position: absolute;
     padding-left: 117px;
+    margin-top: 53px;
 }
 
 .icon-home-back {
     margin-left: 27px;
-    margin-top: -16px;
+    margin-top: 36px;
     float: left;
     width: 76px;
     height: 19px;
@@ -610,7 +694,7 @@ ul li {
     position: absolute;
     margin-left: 1045px;
     /* margin-right: 848px; */
-    margin-top: 333px;
+    margin-top: 260px;
 }
 
 .title-lisst {
@@ -750,8 +834,8 @@ ul li {
 #icon-h-1 {
     position: absolute;
     color: #fff;
-    margin-left: 130px;
-    margin-top: 10px;
+    margin-left: 580px;
+    margin-top: -36px;
 }
 
 #home-icon-1 {
@@ -770,9 +854,8 @@ ul li {
 #icon-h-2 {
     position: absolute;
     color: #fff;
-    /* margin-left: -24px; */
-    margin-top: 10px;
-    margin-left: 139px;
+    margin-top: -36px;
+    margin-left: 589px;
 }
 
 #icon-dk1 {
@@ -1038,42 +1121,51 @@ ul li {
 
     padding-top: 69px;
     width: 100%;
-    height: 154%;
+    height: 190%;
     background-color: #f9f9f9;
 
 }
 
 .comment-A {
-
     margin-left: 220px;
     float: left;
-
     width: 741px;
     height: 330px;
     border-radius: 30px;
     background-color: #ffffff;
-    box-shadow: 30px 30px 50px 0 rgba(0, 0, 0, 0.2);
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+
 
 }
 
 .comment-B {
+    position: relative;
     margin-left: 207px;
     float: left;
     width: 577px;
-    height: 217px;
+    height: 233px;
     margin-top: 179px;
     border-radius: 30px;
     background-color: #ffffff;
+
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
 }
 
 .comment-C {
     margin-right: 227px;
     width: 528px;
-    height: 215px;
+    height: 223px;
     margin-top: 126px;
     float: right;
     border-radius: 29px;
     background-color: #ffffff;
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
 }
 
 .comment-D {
@@ -1084,6 +1176,9 @@ ul li {
     background-color: #ffffff;
     margin-right: 205px;
     float: right;
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
 }
 
 .comment-A p {
@@ -1107,10 +1202,12 @@ ul li {
 }
 
 .number-C {
-    padding: 56px 0px 0px 217px;
+    padding: 59px 0px 0px 180px;
+    font-style: italic;
 }
 
 .name-comment-C {
+    margin-top: 10px;
     width: 661px;
     height: 192px;
     font-family: Lato;
@@ -1118,8 +1215,9 @@ ul li {
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    margin-left: 194px;
+    margin-left: 162px;
     position: absolute;
+
 }
 
 .comment-B p {
@@ -1134,6 +1232,8 @@ ul li {
 }
 
 .name-comment-S {
+    position: absolute;
+    padding-top: 24px;
     width: 661px;
     height: 192px;
     font-family: Lato;
@@ -1141,13 +1241,13 @@ ul li {
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    margin-left: 282px;
+    margin-left: 251px;
 }
 
 .number-S {
-    padding-left: 281px;
-
-    padding-top: 10px;
+    padding-left: 245px;
+    padding-top: 54px;
+    font-style: italic;
 }
 
 .comment-D p {
@@ -1168,13 +1268,14 @@ ul li {
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    margin-left: 360px;
+    margin-left: 397px;
     position: absolute;
-    margin-top: 21px;
+    margin-top: 29px;
 }
 
 .number-D {
-    padding: 67px 0px 0px 233px;
+    padding: 65px 0px 0px 240px;
+    font-style: italic;
 }
 
 .name-comment-D {
@@ -1186,8 +1287,8 @@ ul li {
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    margin-left: 236px;
-    margin-top: 27px;
+    margin-left: 253px;
+    margin-top: 32px;
 }
 
 .name-comment-B {
@@ -1203,30 +1304,31 @@ ul li {
 }
 
 .img-comment-A {
-    width: 75px;
-    height: 75px;
+    width: 110px;
+    height: 110px;
     float: right;
-    margin-top: 2px;
+    margin-top: 42px;
 }
 
 .img-comment-B {
-    width: 75px;
-    height: 75px;
+    width: 110px;
+    height: 110px;
     float: right;
-    margin-top: 2px;
+    margin-top: 32px;
 }
 
 .img-comment-C {
-    width: 75px;
-    height: 75px;
+    width: 110px;
+    height: 110px;
     float: right;
-    margin-top: 2px;
+    margin-top: 14px;
 }
 
 .img-comment-D {
-    width: 75px;
-    height: 75px;
+    width: 110px;
+    height: 110px;
     float: right;
+    padding-top: 42px;
 }
 
 .maps {
@@ -1256,7 +1358,7 @@ ul li {
 
 .contact-title {
 
-    margin-left: 48px;
+    margin-left: -20px;
     font-family: VNFQuicksand-Bold;
     font-size: 36px;
     font-weight: bold;
@@ -1264,10 +1366,12 @@ ul li {
     color: #00bcd4;
 
 }
-.select-form{
-      padding-left: 33px;
+
+.select-form {
+    padding-left: 33px;
     font-family: Lato;
 }
+
 .contact-btn {
     margin-left: 219px;
     margin-top: 55px;
@@ -1299,8 +1403,7 @@ ul li {
 
 #sub-a a {
     color: #fff;
-    margin: 16px;
-    /* margin-top: 10px; */
+    margin: 16px 0px 0px 19px;
     position: absolute;
 }
 
@@ -1341,12 +1444,23 @@ ul li {
 
     margin-top: 61px;
     float: right;
-    width: 74px;
+    width: 84px;
     height: 19px;
     border-radius: 20px;
     background-color: #00bcd4;
 }
-
+#submit {
+    width: 135px;
+    margin-top: 29px;
+    background-color: #00bcd4;
+    margin-left: 281px;
+}
+#submit-1{
+    margin: 47px 0px 0px -42px;
+}
+#submit-2{
+    margin: 47px 0px 0px -32px;
+}
 .footer {
 
     background-color: #00bcd4;
@@ -1359,59 +1473,70 @@ ul li {
 .row {
     /* padding-top: 130px;*/
 }
-.footer-pi{
-       margin-top: 388px;
+
+.footer-pi {
+    margin-top: 388px;
 }
+
 .span {
     float: right;
     padding-bottom: 163px;
 }
-.footer-ti{
-      padding-left: 233px;
-    padding-top: 133px;
 
-  height: 25px;
-  font-family: simple-line-icons;
-  font-size: 24px;
-  letter-spacing: 0.4px;
-  text-align: left;
-  color: #ffffff;
+.footer-ti {
+    padding-left: 233px;
+    padding-top: 105px;
+
+    height: 25px;
+    font-family: simple-line-icons;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #ffffff;
 }
-.footer-twitter{
-      float: left;
-    padding-right: 46px;
-}
-.footer-facebook{
-      float: left;
-    padding-right: 46px;
-}
-.footer-linkedin{
+
+.footer-twitter {
     float: left;
     padding-right: 46px;
 }
-.footer-youtube{
-float: left;
+
+.footer-facebook {
+    float: left;
+    padding-right: 46px;
+}
+
+.footer-linkedin {
+    float: left;
+    padding-right: 46px;
+}
+
+.footer-youtube {
+    float: left;
 }
 
 .footer-tel {
     float: left;
 }
-.privacy{
+
+.privacy {
     float: left;
     padding-left: 206px;
     margin-right: 38px;
     color: #fff;
 }
-.terms{
-      float: left;
+
+.terms {
+    float: left;
     margin-right: 38px;
     color: #fff;
 }
-.settings{
+
+.settings {
     color: #fff;
 }
+
 .footer-tel h4 {
-     margin-left: 71px;
+    margin-left: 71px;
     width: 97px;
     height: 19px;
     font-family: Lato;
@@ -1421,9 +1546,11 @@ float: left;
     text-align: left;
     color: #ffffff;
 }
-.footer-ti ul li{
+
+.footer-ti ul li {
 
 }
+
 }
 .nal li a {
     margin-left: 32px;
@@ -1496,7 +1623,8 @@ float: left;
 .teacher-img img {
 
 }
-.form-input{
+
+.form-input {
     padding-bottom: 84px;
     padding-left: 38px;
 }
