@@ -277,46 +277,41 @@ ul li {
     color: #ffffff;
     position: absolute;
 }
-
-.rectangle img {
-    margin-top: -259px;
-    margin-right: -51px;
+.rectangle{
+        width: 50%;
     float: right;
+}
+
+
+.rectangle img {  
     padding-right: -17px;
-    /* width: 653px; */
-    /* height: 825px; */
-    width: 958px;
     height: 1080px;
     object-fit: contain;
+    margin: -77px -51px 0px 0px;
 }
 
 .page-logo {
-    width: 215px;
+    width: 50%;
     height: 60px;
     object-fit: contain;
     margin-top: 28px;
+    float: left;
 
 }
 
 .page-logo-img {
-    margin-top: 173px;
-    margin-left: 268px;
-    width: 215px;
-    height: 60px;
-    object-fit: contain;
+   
+    margin: 173px 0px 68px 268px;
 }
 
 .page-text-a {
-    margin-top: -81px;
-    margin-left: 268px;
-    width: 572px;
-    height: 288px;
     font-family: VNFQuicksand-Bold;
     font-size: 64px;
     font-weight: bold;
     line-height: 1.13;
     text-align: left;
     color: #00bcd4;
+    margin: -64px 0px 0px 274px;;
 }
 
 .page-text-b {
@@ -469,7 +464,7 @@ ul li {
 }
 
 .icon-next {
-    position: absolute;
+        position: absolute;
     width: 15px;
     height: 14px;
     font-family: themify;
@@ -477,7 +472,7 @@ ul li {
     letter-spacing: 0.2px;
     text-align: left;
     color: #673ab7;
-    margin: -34px 0px 0px 361px;
+    margin: 87px 0px 0px -45px;
 }
 
 .button-a {
@@ -832,15 +827,13 @@ ul li {
 #icon-h-1 {
     position: absolute;
     color: #fff;
-    margin-left: 580px;
-    margin-top: -36px;
+    margin: -36px 0px 0px -36px;
 }
 
 #home-icon-1 {
-
     position: absolute;
-    color: #fff;
-    margin-left: 9px;
+     color: #fff;
+    margin: -36px 0px 0px -58px;
 
 }
 
@@ -852,8 +845,7 @@ ul li {
 #icon-h-2 {
     position: absolute;
     color: #fff;
-    margin-top: -36px;
-    margin-left: 589px;
+    margin: -36px 0px 0px -50px;
 }
 
 #icon-dk1 {
@@ -1131,9 +1123,9 @@ ul li {
     height: 330px;
     border-radius: 30px;
     background-color: #ffffff;
-    transition: all 2s;
-    -moz-transition: all 2s;
-    -webkit-transition: all 2s;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
 
 
 }
@@ -1148,9 +1140,9 @@ ul li {
     border-radius: 30px;
     background-color: #ffffff;
 
-    transition: all 2s;
-    -moz-transition: all 2s;
-    -webkit-transition: all 2s;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .comment-C {
@@ -1161,9 +1153,9 @@ ul li {
     float: right;
     border-radius: 29px;
     background-color: #ffffff;
-    transition: all 2s;
-    -moz-transition: all 2s;
-    -webkit-transition: all 2s;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .comment-D {
@@ -1174,9 +1166,9 @@ ul li {
     background-color: #ffffff;
     margin-right: 205px;
     float: right;
-    transition: all 2s;
-    -moz-transition: all 2s;
-    -webkit-transition: all 2s;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
 .comment-A p {
@@ -1197,6 +1189,9 @@ ul li {
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
+}
+#commnet-icon{
+    background-color: #f44336;
 }
 
 .number-C {
