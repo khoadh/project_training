@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: VNFQuicksand-Bold;
     src: url(../font/vnf-quicksand-bold.ttf);
@@ -51,7 +50,7 @@ ul li {
     cursor: pointer;
 }
 .form-contact:hover{
-    border: solid 2px #673ab7;
+    border-color: #673ab7;
 }
 
 #page {
@@ -124,7 +123,8 @@ ul li {
 }
 
 .icon-rd {
-    margin-left: 93px;
+    
+    margin: -19px 0px 0px 93px;
 }
 
 #round2 {
@@ -137,7 +137,7 @@ ul li {
 
 .icon-round {
 
-    margin: -19px 15px 0px 0px ;
+     margin: 0px 15px 0px 0px;
     float: left;
     width: 14px;
     height: 14px;
@@ -154,9 +154,9 @@ ul li {
 .main-menu img {
     padding-left: 15px;
     float: left;
-    width: 143.4px;
+
     height: 40px;
-    margin-right: 42.6px;
+
 }
 
 .main-menu nav li {
@@ -197,7 +197,8 @@ ul li {
 
 .list-title {
     float: left;
-    margin-right: 416px;
+
+    width: 41%;
 }
 
 .main-menu li a {
@@ -533,8 +534,8 @@ ul li {
 }
 
 .next {
-    margin-top: 260px;
-    margin-left: 1780px;
+    margin-top: 480px;
+    margin-left: 807px;
     width: 83px;
     height: 30px;
     border-radius: 100px;
@@ -560,10 +561,10 @@ ul li {
     position: absolute;
 }
 
-.icon-img-home {
+/*.icon-img-home {
     float: right;
     margin-top: 695px;
-}
+}*/
 
 #icon-home-back-1 {
     border: solid 4px #b1d136;
@@ -571,15 +572,14 @@ ul li {
 }
 
 .back-icon {
-
     position: absolute;
     padding-left: 117px;
-    margin-top: 53px;
+    transform: translate(-5px,-79px);
 }
 
 .icon-home-back {
     margin-left: 27px;
-    margin-top: 36px;
+    margin-top: -76px;
     float: left;
     width: 76px;
     height: 19px;
@@ -685,9 +685,9 @@ ul li {
     border-radius: 100px;
     border: solid 2px #00bcd4;
     position: absolute;
-    margin-left: 1045px;
+    margin-left: 45px;
     /* margin-right: 848px; */
-    margin-top: 260px;
+    margin-top: 481px;
 }
 
 .title-lisst {
@@ -1108,12 +1108,9 @@ ul li {
 }
 
 .list-comment {
-
     padding-top: 69px;
-    width: 100%;
-    height: 100%;
+    height: 943px;
     background-color: #f9f9f9;
-
 }
 
 .comment-A {
@@ -1329,6 +1326,7 @@ ul li {
 }
 
 .form-contact {
+    outline: none;
     width: 450px;
     height: 50px;
     border-radius: 100px;
@@ -1337,6 +1335,11 @@ ul li {
     border: solid 1px #03A9F4;
     margin-bottom: 18px;
     padding-left: 37px;
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    color: #000000;
 }
 
 .form-textarea {
@@ -1544,7 +1547,7 @@ ul li {
 
 }
 
-}
+
 .nal li a {
     margin-left: 32px;
     width: 90px;
@@ -1576,7 +1579,8 @@ ul li {
 }
 
 .nal li {
-    margin-bottom: 23px;
+
+    margin: 0px 0px 21px -29px;
 }
 
 .footer-tel-icon {
@@ -1705,7 +1709,7 @@ ul li {
 #icon-support {
     position: absolute;
     color: #FFE;
-    margin: 10px;
+    margin: 12px;
 }
 
 .icon-support-1 {
