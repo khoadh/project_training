@@ -27,7 +27,8 @@ a {
 ul li {
     list-style-type: none;
     overflow: hidden;
-    margin-bottom: 16px;
+    float: left;
+    margin-left: 38px;
 }
 
 .comment-B:hover {
@@ -60,11 +61,30 @@ ul li {
     width: 1920px;
     max-height: 8648px;
 }
-
+.menu-top-left{
+    width: 50%;
+    float: left;
+}
+.menu-top-right{
+    width: 50%;
+    float: right;
+}
+.title-top{
+    float: left;
+    padding-left: 44px;
+    padding-top: 30px;
+}
+.title-bottom{
+        padding-top: 180px;
+    padding-left: 268px;
+}
+.title-logo{
+        float: left;
+    padding-right: 43px;
+}
 .icon-a {
-    /* margin-top: 53px;*/
-    margin: 53px 0px 0px 176px;
-    /* margin-left: 176px;*/
+     margin-top: -25px;
+    margin-left: -76px;
     float: left;
     width: 76px;
     height: 19px;
@@ -84,12 +104,10 @@ ul li {
 }
 
 .icon-b {
-    /*margin-top: 81px;*/
-    /*margin-left: 227px;*/
-    margin: 81px 0px 0px 227px;
-    width: 25.2px;
+    margin: 81px 0px -96px -24px;
+    max-width: 25.2px;
     border-radius: 20px;
-    height: 18.9px;
+    min-height: 18.9px;
     background-color: #f44336;
 }
 
@@ -147,33 +165,33 @@ ul li {
 }
 
 .main-menu {
-    font-size: 14px;
-    padding-top: 20px;
+    /*font-size: 14px;
+    padding-top: 20px;*/
 }
 
 .main-menu img {
-    padding-left: 15px;
+   /* padding-left: 15px;
     float: left;
     max-width: 143px;
-    margin-right: 42px;
+    margin-right: 42px;*/
 }
 
 .main-menu nav li {
-    float: left;
+   /* float: left;
     list-style-type: none;
     overflow: hidden;
     margin-right: 37px;
-    margin-left: 9px;
+    margin-left: 9px;*/
 }
 
 .nal li a {
-    padding-left: 29px;
+   /* padding-left: 29px;
     width: 67px;
     height: 19px;
     font-family: Lato;
     font-size: 16px;
     text-align: left;
-    color: #ffffff;
+    color: #ffffff;*/
 }
 
 .haposoft {
@@ -195,25 +213,31 @@ ul li {
 }
 
 .list-title {
-    float: left;
-    margin-right: 416px;
+   
+    
 }
-
+.list-title ul li {
+    float: left;
+}
+.title-top{
+    float: left;
+}
 .main-menu li a {
 
-    width: 63px;
+   /* width: 63px;
     height: 17px;
     font-family: Lato;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: left;
-    color: #673ab7;
+    color: #673ab7;*/
 
 }
 
 .login {
-    margin-right: 42px;
-    float: right;
+       padding-left: 587px;
+    z-index: 2;
+    position: absolute;
 }
 
 .login ul {
@@ -226,7 +250,7 @@ ul li {
 }
 
 .login ul li a {
-    padding-left: 16px;
+   /* padding-left: 16px;
     /* padding-left: 16px; */
     position: sticky;
     width: 86px;
@@ -235,7 +259,7 @@ ul li {
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: left;
-    color: #ffffff;
+    color: #ffffff;*/
 }
 
 .icon-home-sport-1 {
@@ -298,13 +322,12 @@ ul li {
     object-fit: contain;
 }
 .rectangle{
-    width: 50%;
     float: right;
+    position: absolute;
 }
 
 .page-text-a {
-    margin-top: -81px;
-    margin-left: 268px;
+   
     width: 572px;
     height: 288px;
     font-family: VNFQuicksand-Bold;
@@ -316,10 +339,8 @@ ul li {
 }
 
 .page-text-b {
-    margin-top: 94px;
-    margin-left: 268px;
+    
     width: 487px;
-    height: 101px;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
@@ -330,19 +351,19 @@ ul li {
 .page-text-b p {
     color: #673ab7;
     font-size: 16px;
+    padding-bottom: 45px;
 }
-
-.page-text-c {
-    margin-top: 67px;
-    margin-left: 275px;
-    padding: 16px 0px 0px 13px;
-    display: inline-block;
-    width: 117px;
-    height: 34px;
+#icon-title-next{
+        margin-right: 22px;
+    padding-top: 10px;
+    width: 110px;
     border-radius: 100px;
     background-color: #ffffff;
     border: solid 2px #673ab7;
+    color: #673ab7;
 }
+
+
 
 /*.page-text-c {*/
     /*width: 136px;*/
@@ -368,11 +389,10 @@ ul li {
 
     }
 
-    .page-text-d {
+   .icon-top{
         display: inline-block;
         width: 182px;
-        margin-left: 443px;
-        margin-top: -54px;
+       
         border-radius: 40px;
         height: 38px;
         padding: 16px 0px 0px 16px;
@@ -394,15 +414,15 @@ ul li {
     }
     .page-text-list{
         display: inline-block;
-        width: 184px;
-        margin-left: 35px;
+        min-width: 179px;
+        margin-left: 77px;
         margin-top: 97px;
         border-radius: 40px;
         height: 32px;
-        padding: 17px 0px 0px 29px;
+        padding: 17px 0px 0px 31px;
         background-color: #e91e63;
         color: #fff;
-    }
+}
     #login-list{
         margin-left: -40px;
         /* background-color: black; */
@@ -473,8 +493,8 @@ ul li {
                 letter-spacing: 0.2px;
                 text-align: left;
                 color: #673ab7;
-                margin: 86px 0px 0px -42px;
-            }
+                margin: 6px 0px 0px 13px;
+                        }
 
             .button-a {
                 width: 193px;
@@ -690,10 +710,14 @@ ul li {
 
             .title-lisst {
                 float: left;
-                margin-left: -591px;
+               max-width: 50%;
+               padding-left: 235px;
 
             }
-
+          .img-list{
+            float: right;
+            width: 50%;
+          }
             .title-lisst p a {
                 margin-left: 10px;
                 font-family: VNFQuicksand-Bold;
@@ -819,7 +843,7 @@ ul li {
             #icon-dk {
                 position: absolute;
                 color: #fff;
-                margin-left: -25px;
+                margin-left: 14px;
             }
 
             #icon-h-1 {
@@ -849,8 +873,9 @@ ul li {
             }
 
             #icon-dk1 {
-                color: #fff;
-                margin-left: 18px;
+                   color: #fff;
+                position: absolute;
+                margin-left: 13px;
             }
 
             .inner-a {
@@ -878,7 +903,10 @@ ul li {
                 font-size: 20px;
                 text-align: left;
                 color: #ffc107;
-                margin-left: -43px;
+                font-size: 30px;
+                letter-spacing: 0.5px;
+                text-align: left;
+                color: #ffc107;
             }
 
             .now a {
@@ -898,13 +926,14 @@ ul li {
             }
 
             .home-page-d {
-                margin-bottom: 68px;
-                float: left;
-                margin-top: 274px;
-                margin-left: 175px;
+                    width: 100%;
+
+               float: left;
+                   padding-top: 274px;
+
             }
 
-            .home-text-1 {
+            .home-text-list{
                 margin-top: 71px;
                 margin-left: 50px;
                 width: 105px;
@@ -916,6 +945,12 @@ ul li {
                 text-align: justify;
                 color: #000000;
 
+            }
+            .home-text-list img{
+                padding-bottom: 71px;
+            }
+            .home-text-list p{
+                text-align: center;
             }
 
             .home-text-2 {
@@ -957,9 +992,7 @@ ul li {
                 margin-left: -71px;
             }
 
-            .home-page-c {
-                margin-top: 529px;
-            }
+          
 
             .home-page-d ul img {
                 width: 158px;
@@ -985,14 +1018,9 @@ margin-left: 20px;*/
 
 }
 
-.home-list {
+.home-list {  
     float: right;
-    margin-right: 142px;
-
-}
-
-.home-page-e {
-
+    width: 20%;
 }
 
 .teacher {
@@ -1470,7 +1498,7 @@ margin-left: 20px;*/
 
 .span {
     float: right;
-    padding-bottom: 163px;
+    margin: 134px 0px 224px 0px;
 }
 
 .footer-ti {
@@ -1583,6 +1611,7 @@ margin-left: 20px;*/
 .login-icon {
     position: absolute;
     margin-top: -12px;
+    margin-left: -15px;
     width: 125px;
     height: 40px;
     border-radius: 100px;
@@ -1629,12 +1658,6 @@ margin-left: 20px;*/
     color: #2196F3;
 }
 
-.img-home {
-    padding-top: 196px;
-    float: right;
-    padding-right: 245px;
-
-}
 
 .img-home-a img {
     margin-top: -90px;
