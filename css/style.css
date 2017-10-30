@@ -23,10 +23,11 @@ a {
 }
 
 ul li {
+    padding-right: 27px;
+    float: left;
+    max-width: 450px;
     list-style-type: none;
     overflow: hidden;
-    float: left;
-    margin-left: 38px;
 }
 
 .comment-B:hover {
@@ -56,7 +57,14 @@ ul li {
 .form-contact:hover {
     border: solid 2px #673ab7;
 }
-
+.list-comment-left{
+    float: left;
+    width: 50%;
+}
+.list-comment-right{
+    float: right;
+    width:50%;
+}
 #page {
     position: relative;
     overflow-x: hidden;
@@ -73,11 +81,14 @@ ul li {
     width: 50%;
     float: right;
 }
-
+.logo img{
+	max-width: 143.4px;
+    max-height: 40px;
+}
 .title-top {
     float: left;
     padding-left: 44px;
-    padding-top: 30px;
+    padding-top: 16px;
 }
 
 .title-bottom {
@@ -245,7 +256,7 @@ ul li {
 }
 
 .login {
-    padding-left: 587px;
+    padding-left: 590px;
     z-index: 2;
     position: absolute;
 }
@@ -406,7 +417,7 @@ ul li {
 
     border-radius: 40px;
     height: 38px;
-    padding: 16px 0px 0px 16px;
+    padding: 16px 0px 0px 20px;
     background-color: #e91e63;
     /* padding-left: 15px; */
     color: #fff;
@@ -415,20 +426,20 @@ ul li {
 .icon-list-btn-1 {
     position: absolute;
     color: #fff;
-    margin-left: -54px;
-    margin-top: 115px;
+    margin-top: 116px;
+    margin-left: -41px;
 }
 
 .icon-list-btn-2 {
     position: absolute;
-    color: #fff;
-    margin-top: 115px;
-    margin-left: -45px;
+     color: #fff;
+    margin-top: 46px;
+    margin-left: 394px;
 }
 
 .page-text-list {
     display: inline-block;
-    min-width: 179px;
+    min-width: 154px;
     margin-left: 77px;
     margin-top: 97px;
     border-radius: 40px;
@@ -481,8 +492,8 @@ ul li {
 
 .span ul li {
     float: left;
-    margin-right: 109px;
-    margin-left: 151px;
+  
+    margin-left: 175px;
 }
 
 .span ul {
@@ -544,10 +555,7 @@ ul li {
 .button-left {
     width: 40px;
     height: 40px;
-    margin-top: 250px;
-    margin-left: -262px;
-    /* width: 175px; */
-    /* height: 40px; */
+    margin: 250px 0px 0px -205px;
     border-radius: 20px;
     background-color: #00bcd4;
 }
@@ -867,14 +875,12 @@ ul li {
 #icon-dk {
     position: absolute;
     color: #fff;
-    margin-left: 14px;
+    margin-left: -14px;
 }
 
 #icon-h-1 {
-    position: absolute;
     color: #fff;
-    margin-left: -64px;
-    margin-top: -36px;
+    margin-left: 15px;
 }
 
 #home-icon-1 {
@@ -893,7 +899,7 @@ ul li {
 #icon-h-2 {
     position: absolute;
     color: #fff;
-    margin: -36px 0px 0px -53px;
+    margin: 0px 0px 0px -10px;
 }
 
 #icon-dk1 {
@@ -951,17 +957,14 @@ ul li {
 
 .home-page-d {
     width: 100%;
-
     float: left;
-    padding-top: 274px;
+    padding: 274px 0px 56px 106px;
 
 }
 
 .home-text-list {
-    margin-top: 71px;
-    margin-left: 50px;
-    width: 105px;
-    height: 24px;
+
+    margin: 71px 0px 0px -173px;
     font-family: VNFQuicksand-Bold;
     font-size: 24px;
     font-weight: bold;
@@ -1117,8 +1120,8 @@ ul li {
     margin-top: 63px;
     margin-left: -60px;
     float: left;
-    width: 76px;
-    height: 19px;
+    min-width: 76px;
+    min-height: 19px;
     border-radius: 20px;
     background-color: #00bcd4;
 }
@@ -1126,7 +1129,7 @@ ul li {
 .icon-cmt-b {
     margin-top: 37px;
     margin-left: -26px;
-    width: 38px;
+    max-width: 38px;
     border-radius: 20px;
     height: 19px;
     background-color: #f44336;
@@ -1135,8 +1138,8 @@ ul li {
 .icon-cmt-s {
     margin-top: 37px;
     margin-left: -26px;
-    width: 36px;
-    height: 19px;
+    max-width: 36px;
+    min-height: 19px;
     border-radius: 20px;
     background-color: #ffc107;
 }
@@ -1144,18 +1147,18 @@ ul li {
 .icon-cmt-c {
     margin-top: 37px;
     margin-left: -26px;
-    width: 38px;
+    max-width: 38px;
     border-radius: 20px;
-    height: 19px;
+    min-height: 19px;
     background-color: #b1d136;
 }
 
 .icon-cmt-d {
     margin-top: 37px;
     margin-left: -26px;
-    width: 38px;
+    max-width: 38px;
     border-radius: 20px;
-    height: 19px;
+    min-height: 19px;
     background-color: #673ab7;
 }
 
@@ -1163,7 +1166,7 @@ ul li {
 
     padding-top: 69px;
     width: 100%;
-    height: 100%;
+    min-height: 900px;
     background-color: #f9f9f9;
 
 }
@@ -1223,15 +1226,14 @@ ul li {
 }
 
 .comment-A p {
-    width: 661px;
-    height: 192px;
-    font-family: Lato;
+
+   font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    margin-left: 40px;
-    margin-top: -14px;
+
+    margin: -14px 35px 0px 40px;
 }
 
 .comment-C p {
@@ -1249,8 +1251,6 @@ ul li {
 
 .name-comment-C {
     margin-top: 10px;
-    width: 661px;
-    height: 192px;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
@@ -1265,8 +1265,6 @@ ul li {
     margin-top: -25px;
     margin-left: 37px;
     margin-right: 30px;
-    /* margin: 20px; */
-    /* margin-right: 20px; */
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
@@ -1275,8 +1273,6 @@ ul li {
 .name-comment-S {
     position: absolute;
     padding-top: 24px;
-    width: 661px;
-    height: 192px;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
@@ -1302,16 +1298,14 @@ ul li {
 }
 
 .name-comment-A {
-    width: 661px;
-    height: 192px;
+
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
     color: #000000;
-    margin-left: 397px;
     position: absolute;
-    margin-top: 29px;
+    margin: 29px 0px 0px 397px;
 }
 
 .number-D {
@@ -1321,8 +1315,6 @@ ul li {
 
 .name-comment-D {
     position: absolute;
-    width: 661px;
-    height: 192px;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
@@ -1333,8 +1325,6 @@ ul li {
 }
 
 .name-comment-B {
-    width: 661px;
-    height: 192px;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
@@ -1398,8 +1388,7 @@ ul li {
 }
 
 .contact-title {
-
-    margin-left: -20px;
+    float: left;
     font-family: VNFQuicksand-Bold;
     font-size: 36px;
     font-weight: bold;
@@ -1424,9 +1413,11 @@ ul li {
 }
 
 .contact-form {
-    margin-left: 256px;
+
     float: left;
-    margin-top: 137px;
+    width: 50%;
+    padding-top: 137px;
+
 }
 
 .contact-fr {
@@ -1467,7 +1458,7 @@ ul li {
 }
 
 .number {
-    padding: 48px 0px 0px 378px;
+    padding: 75px 0px 0px 412px;
 }
 
 .icon-contact-a {
@@ -1475,18 +1466,18 @@ ul li {
     margin-top: 60px;
     margin-right: 40px;
     float: right;
-    width: 22px;
-    height: 19px;
+    min-width: 22px;
+    min-height: 19px;
     border-radius: 20px;
     background-color: #F44336;
 }
 
 .icon-contact-b {
-
-    margin-top: 61px;
+    margin-left: -22px;
+    margin-top: 57px;
     float: right;
-    width: 84px;
-    height: 19px;
+    min-width: 84px;
+    min-height: 19px;
     border-radius: 20px;
     background-color: #00bcd4;
 }
@@ -1495,16 +1486,17 @@ ul li {
     width: 135px;
     margin-top: 29px;
     background-color: #00bcd4;
-    margin-left: 281px;
+    /* margin-left: 252px; */
+    float: right
 }
 
-#submit-1 {
-    margin: 47px 0px 0px -42px;
-}
+/*#submit-1 {*/
+    /*margin: 47px 0px 0px -42px;*/
+/*}*/
 
-#submit-2 {
-    margin: 47px 0px 0px -32px;
-}
+/*#submit-2 {*/
+    /*margin: 47px 0px 0px -32px;*/
+/*}*/
 
 .footer {
 
@@ -1592,9 +1584,6 @@ ul li {
     color: #ffffff;
 }
 
-.footer-ti ul li {
-
-}
 
 .nal li a {
     margin-left: 32px;
@@ -1653,7 +1642,7 @@ ul li {
 }
 
 #icon-sreach {
-    margin-left: 28px;
+    margin-left: 45px;
     font-size: 20px;
     letter-spacing: 0.4px;
     color: #673ab7;
@@ -1719,11 +1708,8 @@ ul li {
 }
 
 .button-home {
-
     margin-top: 147px;
-    /* padding-top: 148px; */
     float: right;
-    margin-right: -209px;
     width: 120px;
     height: 40px;
     border-radius: 100px;
